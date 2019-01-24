@@ -6,3 +6,7 @@
 2019-01-24 19:00:33.339 CET [93868] FATAL:  database "lemon_chat_development" does not exist
 2019-01-24 19:03:08.489 CET [93916] FATAL:  database "lemon_chat_development" does not exist
 2019-01-24 19:03:10.279 CET [93917] FATAL:  database "lemon_chat_development" does not exist
+2019-01-24 21:24:13.177 CET [97303] ERROR:  database "lemon_chat_development" already exists
+2019-01-24 21:24:13.177 CET [97303] STATEMENT:  CREATE DATABASE "lemon_chat_development" ENCODING = 'unicode'
+2019-01-24 21:24:13.192 CET [97305] ERROR:  database "lemon_chat_test" already exists
+2019-01-24 21:24:13.192 CET [97305] STATEMENT:  CREATE DATABASE "lemon_chat_test" ENCODING = 'unicode'
