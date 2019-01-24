@@ -6,4 +6,5 @@ module ApplicationCable
       self.current_user = request.session.fetch("username", nil)
       reject_unauthorized_connection unless current_user
     end
+  end
 end
